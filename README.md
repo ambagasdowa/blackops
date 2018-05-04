@@ -29,17 +29,3 @@ and after [optional]
 ```php
 composer suggests | xargs -i composer require {}
 ```
-
-
-* Build a schema for users table
-
-```bash
-bin/cake migrations migrate -p CakeDC/Users
-```
-
-
-* Create a superuser
-
-```bash
-bin/cake users addSuperuser
-```
