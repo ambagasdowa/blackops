@@ -11,6 +11,7 @@
         "cakephp/migrations": "^1.8.0",
         "cakephp/plugin-installer": "^1.0",
         "josegonzalez/dotenv": "3.*",
+        "maiconpinto/cakephp-adminlte-theme": "^1.0",
         "mobiledetect/mobiledetectlib": "2.*",
         "symfony/event-dispatcher": "^4.0",
         "symfony/lock": "^4.0"

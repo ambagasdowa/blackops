@@ -53,4 +53,16 @@ class AppController extends Controller
         //$this->loadComponent('Security');
         //$this->loadComponent('Csrf');
     }
+
+    // Enable AdminLTE Theme
+    public function beforeRender(Event $event) {
+
+        $this->viewBuilder()->setTheme('AdminLTE');
+
+        // For CakePHP before 3.5
+        // $this->viewBuilder()->theme('AdminLTE');
+    }
+
+
+
 }
