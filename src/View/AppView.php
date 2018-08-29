@@ -35,6 +35,8 @@ class AppView extends View
      * @return void
      */
     public function initialize() {
-      $this->loadHelper('Form', ['className' => 'AdminLTE.Form']);
+
+      // $this->loadHelper('Form', ['className' => 'AdminLTE.Form']);
+
     }
 }

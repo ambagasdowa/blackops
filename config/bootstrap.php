@@ -217,20 +217,22 @@ if (Configure::read('debug')) {
 }
 
 // Theme AdminLTE Config
-Plugin::load('AdminLTE', ['bootstrap' => true, 'routes' => true]);
+
+// Plugin::load('AdminLTE', ['bootstrap' => true, 'routes' => true]);
+
 // To customize configuration paste it at end of file config/bootstrap.php
 
-Configure::write('Theme', [
-    'title' => 'AdminLTE',
-    'logo' => [
-        'mini' => '<b>A</b>LT',
-        'large' => '<b>Admin</b>LTE'
-    ],
-    'login' => [
-        'show_remember' => true,
-        'show_register' => true,
-        'show_social' => true
-    ],
-    'folder' => ROOT,
-    'skin' => 'blue' // default is 'blue'
-]);
+// Configure::write('Theme', [
+//     'title' => 'AdminLTE',
+//     'logo' => [
+//         'mini' => '<b>A</b>LT',
+//         'large' => '<b>Admin</b>LTE'
+//     ],
+//     'login' => [
+//         'show_remember' => true,
+//         'show_register' => true,
+//         'show_social' => true
+//     ],
+//     'folder' => ROOT,
+//     'skin' => 'blue' // default is 'blue'
+// ]);
